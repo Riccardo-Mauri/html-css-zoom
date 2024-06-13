@@ -1,95 +1,126 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom</title>
     <!--link del css-->
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header class="">
         <div class=" header-container">
-            <div class="info speaker-view"><button class="top-button"><i class="fa-solid fa-bars"></i></i>Speaker View</button></div>
+            <div class="info speaker-view"><button class="top-button"><i class="fa-solid fa-bars"></i></i>Speaker
+                    View</button></div>
             <div class="info screen"><button class="top-button"><i class="fa-solid fa-user"></i></button></div>
         </div>
     </header>
     <main class="main-container">
-
+        <div class="container-calls">
+            <div class="calls"></div>
+            
+            
+        </div>
     </main>
     <footer>
         <div class="flex-container">
-            <div>
-                <div class="flex-container-buttons color-style-white">
-                    <!--immagine microfono-->
-                    <button class="footer-button color-style-white"><i class="fa-solid fa-microphone-slash"></i></button>
-                    <!--scrita mute-->
-                    <div class="button-desc">Mute</div>
-                    <!--tendina/freccetta in sù-->
-                    <button class="footer-button color-style-white left-align"><i class="fa-solid fa-angle-up"></i></button>
-                </div>
-            </div>
-            <div class="flex-container">
-                <div class="color-style-white">
-                    <!--icona invito-->
-                    <button class="footer-button color-style-white"><i class="fa-solid fa-user-plus"></i></button>
-                    <!--scritta invite-->
-                    <div>Invite</div>
-                </div>
-                <div class="color-style-white">
-                    <!--icona partecipanti-->
-                    <button class="footer-button color-style-white"><i class="fa-solid fa-users"></i></button>
-                    <!--scritta manage partecipants-->
-                    <div>Manage Partecipants</div>
-                </div>
-                <div class="color-style-white">
-                
-                    <!--icona polling-->
-                    <button class="footer-button color-style-white"><i class="fa-solid fa-chart-column"></i></button>
-                    <!--scritta polling-->
-                    <div>Polling</div>
-                </div>
-                <div class="color-style-white">
-                   
-                    <!--icona IN VERDE share screen-->
-                    <button class="footer-button color-style-green"><i class="fa-solid fa-share-from-square"></i></button>
-                    <!--scritta share screen-->
-                    <div>Share Screen</div>
+            <div class="footer-button-left">
+                <div class="footer-button-left">
+
+                    <div class="flex-container-buttons-and-text color-style-white">
+                        <!--immagine microfono-->
+                        <button class="footer-button color-style-white"><i
+                                class="fa-solid fa-microphone-slash"></i></button>
+                        <!--scrita mute-->
+                        <div class="button-desc">Mute</div>
+                    </div>
                     <!--tendina/freccetta in sù-->
                     <button class="footer-button color-style-white"><i class="fa-solid fa-angle-up"></i></button>
                 </div>
-                <div class="color-style-white">
+                <div class="footer-button-left">
+
+                    <div class="flex-container-buttons-and-text color-style-white">
+                        <!--immagine videocamera-->
+                        <button class="footer-button color-style-white"><i
+                                class="fa-solid fa-video"></i></button>
+                        <!--scrita stop video-->
+                        <div class="button-desc">Stop video</div>
+                    </div>
+                    <!--tendina/freccetta in sù-->
+                    <button class="footer-button color-style-white"><i class="fa-solid fa-angle-up"></i></button>
+                </div>
+            </div>
+
+            <div class="flex-container-buttons-center">
+                <div class="color-style-white footers-padding">
+                    <!--icona invito-->
+                    <button class="footer-button color-style-white"><i class="fa-solid fa-user-plus"></i></button>
+                    <!--scritta invite-->
+                    <div class="button-desc">Invite</div>
+                </div>
+                <div class="color-style-white footers-padding">
+                    <!--icona partecipanti-->
+                    <button class="footer-button color-style-white"><i class="fa-solid fa-users"></i></button>
+                    <!--scritta manage partecipants-->
+                    <div class="button-desc">Manage Partecipants</div>
+                </div>
+                <div class="color-style-white footers-padding">
+
+                    <!--icona polling-->
+                    <button class="footer-button color-style-white"><i class="fa-solid fa-chart-column"></i></button>
+                    <!--scritta polling-->
+                    <div class="button-desc">Polling</div>
+                </div>
+                <div class="color-style-white footers-padding footer-button-left">
+
+                    <div class="footer-button-center">
+                        <!--icona IN VERDE share screen-->
+                        <button class="footer-button color-style-green"><i
+                                class="fa-solid fa-share-from-square"></i></button>
+                        <!--scritta share screen-->
+                        <div class="button-desc">Share Screen</div>
+
+                    </div>
+                    <!--tendina/freccetta in sù-->
                    
+                    <button class="footer-button color-style-white"><i class="fa-solid fa-angle-up"></i></button>
+                </div>
+                <div class="color-style-white footers-padding">
+
                     <!--icona chat-->
                     <button class="footer-button color-style-white"><i class="fa-solid fa-comment"></i></button>
                     <!--scritta chat-->
-                    <div>Chat</div>
+                    <div class="button-desc">Chat</div>
                 </div>
-                <div class="color-style-white">
-                  
+                <div class="color-style-white footers-padding">
+
                     <!--icona record-->
                     <button class="footer-button color-style-white"><i class="fa-solid fa-record-vinyl"></i></button>
                     <!--scritta record-->
-                    <div>Record</div>
+                    <div class="button-desc">Record</div>
                 </div>
-                <div class="color-style-white">
-                  
+                <div class="color-style-white footers-padding">
+
                     <!--icona more rooms-->
                     <button class="footer-button color-style-white"><i class="fa-solid fa-square"></i></button>
                     <!--scritta breakout rooms-->
-                    <div>Breakout Rooms</div>
+                    <div class="button-desc">Breakout Rooms</div>
                 </div>
-                <div class="color-style-white">
-                   
+                <div class="color-style-white footers-padding">
+
                     <!--icona tre puntini-->
                     <button class="footer-button color-style-white"><i class="fa-solid fa-ellipsis"></i></button>
                     <!--scritta more-->
-                    <div>More</div>
+                    <div class="button-desc">More</div>
                 </div>
 
             </div>
-            <div>
+            <div class="bck-call">
                 <div class="End-call">
                     End Meeting
                 </div>
@@ -97,4 +128,5 @@
         </div>
     </footer>
 </body>
+
 </html>

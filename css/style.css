@@ -54,6 +54,17 @@ MAIN
     background-color: orange;
     height: 500px;
 }
+.container-calls{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color:red ;
+}
+.calls{
+    width: 200px;
+    height: 150px;
+    border: 1px dashed black;
+}
 .color-style-white{
     color: #FFFFFF;
 }
@@ -73,26 +84,62 @@ footer{
     justify-content: space-between;
     align-items: center;
 }
-.flex-container-buttons{
+.flex-container-buttons-and-text{
+    width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    --align-items: center;
+    width: 70px;
+      
 }
+.flex-container-buttons-center{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+.footers-padding{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
 .footer-button{
+    width: calc(100%/3);
     background-color:#222222;
     text-decoration: none;
     text-align: center;
     border: none;
     cursor: pointer;
     font-size: 1.7em;
+    
+    
 }
 .button-desc{
     font-size: 1.2em;
 }
 .End-call{
+   
     color:#E5233A ;
+    
 }
-.left-align{
-    justify-self: center;
+.fa-angle-up{
+    font-size: 0.5em;
+}
+.footer-button-left{
+    display: flex;
+    flex-direction: row;
+}
+.footer-button-center{
+    display: flex;
+    flex-direction: column;
+    
+}
+.bck-call{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 80px;
+    background-color:#4A4A4A ;
 }
