@@ -7,6 +7,11 @@ RESET
     box-sizing: border-box;
 }
 
+.img-calls{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
 /*
 HEADER
 */
@@ -50,26 +55,42 @@ HEADER
 MAIN
 */
 .main-container{
-    width: 100%vw;
+    width: 100%;
     background-color: orange;
-    height: 500px;
+    
+    
 }
 .container-calls{
-    width: 90%;
+    padding-left: 40px;
+    padding-right: 40px;
     height: 100%;
     margin: 0 auto;
-    background-color:red ;
+    background-color:#0E0E0E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
 }
 .calls{
-    width: 200px;
+    width: 250px;
     height: 150px;
-    border: 1px dashed black;
+    margin: 5px 10px 5px;
+    position: relative;
 }
 .color-style-white{
     color: #FFFFFF;
 }
 .color-style-green{
     color:#4BC800 ;
+}
+.personal-microfone{
+    background-color: grey;
+    color: white;
+    position: absolute;
+    left: 0px;
+    bottom: 2px;
+    padding: 2px 4px 2px;
 }
 /*
 FOOTER
@@ -118,11 +139,7 @@ footer{
 .button-desc{
     font-size: 1.2em;
 }
-.End-call{
-   
-    color:#E5233A ;
-    
-}
+
 .fa-angle-up{
     font-size: 0.5em;
 }
@@ -142,4 +159,13 @@ footer{
     width: 100px;
     height: 80px;
     background-color:#4A4A4A ;
+}
+.call-button{
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    background-color:#4A4A4A;
+    color: red;
+    border: none;
+
 }
